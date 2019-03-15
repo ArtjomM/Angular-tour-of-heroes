@@ -1,0 +1,19 @@
+<h2>Ability</h2>
+<ul class="abilities">
+  <li *ngFor="let ability of abilities">
+  <span class="badge">{{ability.abilityPower}}</span>{{ability.ability}}
+  </li>
+</ul>
+ 
+<!-- <div *ngIf="selectedAbility">
+ 
+  <h2>{{selectedAbility.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedAbility.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedAbility.ability" placeholder="ability">
+      <div><span>ability: </span>{{ability.ability}}</div>
+    </label>
+  </div>
+ 
+</div> -->
